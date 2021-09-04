@@ -28,6 +28,7 @@
   </header>
 </template>
 <script>
+import Avatar from "@/components/Avatar.vue";
 import IconHome from "@/icons/home.svg";
 import IconHomeFill from "@/icons/home-fill.svg";
 import IconDirect from "@/icons/direct.svg";
@@ -35,18 +36,17 @@ import IconDirectFill from "@/icons/direct-fill.svg";
 import IconExplore from "@/icons/explore.svg";
 import IconExploreFill from "@/icons/explore-fill.svg";
 import Container from "@/components/Container.vue";
-import Avatar from "@/components/Avatar.vue";
 export default {
   name: "MainHeader",
   components: {
     Container,
+    Avatar,
     IconHome,
     IconHomeFill,
     IconDirect,
     IconDirectFill,
     IconExplore,
     IconExploreFill,
-    Avatar,
   },
 };
 </script>
