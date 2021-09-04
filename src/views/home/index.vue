@@ -2,7 +2,6 @@
   <div class="home">
     <div class="timeline">
       <h1>Home</h1>
-
       <Post />
       <Post />
       <Post />

@@ -48,7 +48,7 @@
   </div>
 </template>
 <script>
-import Avatar from "./Avatar.vue";
+import Avatar from "@/components/Avatar.vue";
 import CustomText from "@/components/CustomText.vue";
 import IconMore from "@/icons/more.svg";
 import IconLike from "@/icons/like.svg";
