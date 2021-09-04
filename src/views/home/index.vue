@@ -2,7 +2,32 @@
   <div class="home">
     <div class="timeline">
       <h1>Home</h1>
-      <Avatar :size="150" />
+
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
     <div class="sidebar">
       <p>
@@ -16,9 +41,9 @@
 </template>
 
 <script>
-import Avatar from "@/components/avatar.vue";
+import Post from "@/components/Post.vue";
 export default {
-  components: { Avatar },
+  components: { Post },
   name: "Home",
 };
 </script>

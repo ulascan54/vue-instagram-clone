@@ -35,7 +35,7 @@ import IconDirectFill from "@/icons/direct-fill.svg";
 import IconExplore from "@/icons/explore.svg";
 import IconExploreFill from "@/icons/explore-fill.svg";
 import Container from "@/components/Container.vue";
-import Avatar from "./avatar.vue";
+import Avatar from "./Avatar.vue";
 export default {
   name: "MainHeader",
   components: {
