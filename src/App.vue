@@ -19,7 +19,7 @@ export default {
 </script>
 <style scoped>
 .main {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 40px;
 }
 </style>

@@ -14,6 +14,7 @@ export default {
     },
     alt: {
       type: String,
+      default: "avatar",
     },
     size: {
       type: Number,
