@@ -9,13 +9,11 @@
 </template>
 
 <script>
-import IconHome from "../icons/home.svg";
 import CustomText from "@/components/CustomText";
 export default {
   name: "Home",
   components: {
     CustomText,
-    IconHome,
   },
 };
 </script>
