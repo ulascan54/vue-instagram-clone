@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: "avatar",
+  name: "Avatar",
   props: {
     src: {
       type: String,
