@@ -5,7 +5,7 @@
 
 - [x] CSS alt yapısı ve tipografi. projedeki (svg) ikonların hazırlanması
 - [x] Sayfaları oluşturalım. Master-Page oluşturalım
-- [ ] Header tasarımı ve Anasayfa için layout oluşturalım
+- [x] Header tasarımı ve Anasayfa için layout oluşturalım
 - [ ] Proje host etmek için vercel.com deploy konfigrasyonu
 - [ ] Anasayfa'daki post componenti
 - [ ] Anasayfa için api ve infinite-scroll
