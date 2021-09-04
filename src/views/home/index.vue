@@ -2,78 +2,9 @@
   <div class="home">
     <div class="timeline">
       <h1>Home</h1>
-      <CustomText> Merhaba Dünya </CustomText>
-      <CustomText tag="p"> Merhaba Dünya </CustomText>
-      <CustomText tag="b" size="xsmall"> Merhaba Dünya </CustomText>
-      <IconHome width="60" height="60" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
+      <Avatar :size="150" />
     </div>
     <div class="sidebar">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
-        consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
-        sed, voluptates omnis, quo velit consequatur est? Alias aliquid atque
-        dolorem!
-      </p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
         consequuntur, molestiae error quaerat minus nesciunt explicabo eos quod
@@ -85,12 +16,10 @@
 </template>
 
 <script>
-import CustomText from "@/components/CustomText";
+import Avatar from "@/components/avatar.vue";
 export default {
+  components: { Avatar },
   name: "Home",
-  components: {
-    CustomText,
-  },
 };
 </script>
 <style scoped>
