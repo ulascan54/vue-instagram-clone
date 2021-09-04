@@ -9,7 +9,8 @@ export default {
   props: {
     src: {
       type: String,
-      default: "https://avatars.githubusercontent.com/u/39746408?v=4",
+      default:
+        "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.yediharika.com%2Fuploads%2Fposts%2F2014-10%2F1412346286_5.jpg&f=1&nofb=1",
     },
     alt: {
       type: String,
