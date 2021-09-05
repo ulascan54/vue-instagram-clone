@@ -36,16 +36,16 @@ export default {
     rgba(237, 158, 90, 1) 100%
   );
   display: inline-flex;
-  img {
-    border-radius: inherit;
-    border: 2px solid white;
-  }
+}
+.avatar img {
+  border-radius: inherit;
+  border: 2px solid white;
 }
 .bordernone {
   padding: 0px;
   background: none;
-  img {
-    border: none;
-  }
+}
+.bordernone img {
+  border: none;
 }
 </style>
