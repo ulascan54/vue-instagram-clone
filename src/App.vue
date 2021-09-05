@@ -20,6 +20,8 @@ export default {
 <style scoped>
 .main {
   background-color: #fafafa;
-  padding: 40px;
+  @media (--t) {
+    padding: 40px;
+  }
 }
 </style>

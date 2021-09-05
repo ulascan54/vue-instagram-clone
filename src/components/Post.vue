@@ -42,9 +42,39 @@
     <div class="view-count section">
       <CustomText tag="b">1345.beğenme</CustomText>
     </div>
-    <div class="comme-list"></div>
-    <div class="datetime"></div>
-    <div class="comment-form"></div>
+
+    <div class="comment-list section">
+      <div class="main-comment">
+        <CustomText tag="b" class="title">ulascan54</CustomText>
+        <CustomText>Fotoğraf benim içim yaşamtarzı</CustomText>
+      </div>
+      <div class="comment-count"><a href="#">919 yorumun tümünü gör</a></div>
+      <div class="other-comments">
+        <CustomText tag="b" class="title">kübra22</CustomText>
+        <CustomText>Helal olsun sana be</CustomText>
+        <button type="button"><IconLike width="12" height="12" /></button>
+      </div>
+      <div class="other-comments">
+        <CustomText tag="b" class="title">vesves02</CustomText>
+        <CustomText>kim bu kız ?</CustomText>
+        <button type="button"><IconLike width="12" height="12" /></button>
+      </div>
+    </div>
+
+    <div class="datetime section">
+      <CustomText class="xxsmall">43 DAKİKA ÖNCE</CustomText>
+    </div>
+    <div class="comment-form section">
+      <div class="emoji">
+        <IconEmoji />
+      </div>
+      <div class="comment-input">
+        <input type="text" placeholder="Yorum ekle..." />
+      </div>
+      <div class="share-text">
+        <CustomText tag="b">Paylaş</CustomText>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -54,6 +84,8 @@ import IconLike from "@/icons/like.svg";
 import IconComment from "@/icons/comment.svg";
 import IconDirect from "@/icons/direct.svg";
 import IconSave from "@/icons/save.svg";
+import IconEmoji from "@/icons/emoji.svg";
+
 export default {
   components: {
     CustomText,
@@ -62,6 +94,7 @@ export default {
     IconComment,
     IconDirect,
     IconSave,
+    IconEmoji,
   },
 };
 </script>
@@ -70,6 +103,7 @@ export default {
   border-radius: 3px;
   border: 1px solid rgb(var(--b6a));
   margin-bottom: 15px;
+  background-color: white;
 }
 .section {
   padding-left: 16px;
@@ -103,5 +137,59 @@ export default {
 .action-buttons .action-save {
   margin-left: auto;
   margin-right: 0;
+}
+.comment-list .title {
+  margin-right: 8px;
+}
+.comment-list .main-comment,
+.comment-count,
+.other-comments,
+.datetime,
+.comment-form {
+  margin-top: 8px;
+  display: flex;
+}
+.comment-count a,
+.datetime {
+  color: rgba(var(--f52), 1);
+}
+.datetime {
+  margin-bottom: 4px;
+}
+.other-comments button {
+  margin-left: auto;
+}
+.comment-form {
+  display: none;
+  @media (--t) {
+    display: block;
+    border-top: 1px solid rgb(var(--b6a));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+.comment-form .comment-input {
+  width: 80%;
+}
+.comment-form .comment-input input {
+  width: 100%;
+  height: 30px;
+}
+.comment-form .comment-input input:focus {
+  outline: 0;
+  background: none;
+}
+.comment-form .share-text {
+  text-align: right;
+}
+.comment-form .share-text,
+.comment-form .emoji {
+  width: 10%;
+}
+.comment-form .share-text {
+  color: rgb(var(--d69));
 }
 </style>
