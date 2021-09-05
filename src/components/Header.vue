@@ -28,7 +28,6 @@
   </header>
 </template>
 <script>
-import Avatar from "@/components/Avatar.vue";
 import IconHome from "@/icons/home.svg";
 import IconHomeFill from "@/icons/home-fill.svg";
 import IconDirect from "@/icons/direct.svg";
@@ -40,7 +39,6 @@ export default {
   name: "MainHeader",
   components: {
     Container,
-    Avatar,
     IconHome,
     IconHomeFill,
     IconDirect,

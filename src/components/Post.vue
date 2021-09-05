@@ -48,7 +48,6 @@
   </div>
 </template>
 <script>
-import Avatar from "@/components/Avatar.vue";
 import CustomText from "@/components/CustomText.vue";
 import IconMore from "@/icons/more.svg";
 import IconLike from "@/icons/like.svg";
@@ -57,7 +56,6 @@ import IconDirect from "@/icons/direct.svg";
 import IconSave from "@/icons/save.svg";
 export default {
   components: {
-    Avatar,
     CustomText,
     IconMore,
     IconLike,
