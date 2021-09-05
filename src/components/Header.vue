@@ -71,7 +71,7 @@ export default {
 }
 .logo {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-family: "Cinderala";
 }
 .search {
   display: none;

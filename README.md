@@ -9,14 +9,16 @@
 
 ## Adem Hocanın dersinden sonra eklenenler:
 
-- [ ] Anasayfa'daki post componenti
-- [ ] Anasayfa için api ve infinite-scroll
+- [x] Anasayfa'daki post componenti
+- [x] Logo tasarımı
 - [ ] Anasayfa'daki stories alanı
-- [ ] Yorum gönder için api ve implemente edilmesi
+- [ ] Anasayfa'daki desktop için sağ block kısmının yapılması
+- [ ] Profil sayfası ve sekmeler için route ayarı
 - [ ] Options modal componenti ve animasyon kullanımı
 - [ ] Keşfet sayfası için api ve layout tasarımı
 - [ ] Post modal componenti ve keşfet sayfasına implemente edilmesi
-- [ ] Profil sayfası ve sekmeler için route ayarı
+- [ ] Yorum gönder için api ve implemente edilmesi
+- [ ] Anasayfa için api ve infinite-scroll
 
 ## Project setup
 
