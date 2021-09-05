@@ -81,29 +81,29 @@ export default {
   height: 60px;
   display: flex;
   align-items: center;
-  &-author {
-    display: flex;
-    align-items: center;
-    &-info {
-      margin-left: 8px;
-    }
-  }
+}
+.header-author {
+  display: flex;
+  align-items: center;
+}
+.header .header-author .header-author-info {
+  margin-left: 8px;
+}
 
-  &-more {
-    margin-left: auto;
-  }
+.header .header-more {
+  margin-left: auto;
 }
 
 .action-buttons {
   height: 45px;
   display: flex;
   align-items: center;
-  button {
-    margin-right: 16px;
-  }
-  .action-save {
-    margin-left: auto;
-    margin-right: 0;
-  }
+}
+.action-buttons button {
+  margin-right: 16px;
+}
+.action-buttons .action-save {
+  margin-left: auto;
+  margin-right: 0;
 }
 </style>
