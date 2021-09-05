@@ -1,5 +1,5 @@
 <template>
-  <figure :class="bordernone">
+  <figure :class="avatarstatus">
     <img :src="src" :alt="alt" :width="size" :height="size" />
   </figure>
 </template>
@@ -19,7 +19,7 @@ export default {
     size: {
       type: Number,
     },
-    bordernone: {
+    avatarstatus: {
       type: String,
       default: "avatar",
     },
@@ -47,5 +47,8 @@ export default {
 }
 .bordernone img {
   border: none;
+}
+.avatarblack {
+  background: black;
 }
 </style>

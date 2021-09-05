@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <div class="timeline">
-      <h1>Home</h1>
-      <Post />
+      <Stories />
+      <Post v-for="i in 15" :key="i" />
     </div>
     <div class="sidebar">
       <p>
@@ -17,8 +17,9 @@
 
 <script>
 import Post from "@/components/Post.vue";
+import Stories from "@/components/Stories/index.vue";
 export default {
-  components: { Post },
+  components: { Post, Stories },
   name: "Home",
 };
 </script>

@@ -11,7 +11,7 @@
 
 - [x] Anasayfa'daki post componenti
 - [x] Logo tasarımı
-- [ ] Anasayfa'daki stories alanı
+- [x] Anasayfa'daki stories alanı
 - [ ] Anasayfa'daki desktop için sağ block kısmının yapılması
 - [ ] Profil sayfası ve sekmeler için route ayarı
 - [ ] Options modal componenti ve animasyon kullanımı

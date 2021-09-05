@@ -21,7 +21,19 @@
           <IconExplore v-else />
         </router-link>
         <router-link to="/profile">
-          <Avatar :size="30" class="bordernone" />
+          <div
+            v-if="
+              $route.path === '/profile' ||
+              $route.path === '/profile/igtv' ||
+              $route.path === '/profile/save' ||
+              $route.path === '/profile/tag'
+            "
+          >
+            <Avatar :size="30" class="avatarblack" />
+          </div>
+          <div v-else>
+            <Avatar :size="30" class="bordernone" />
+          </div>
         </router-link>
       </nav>
     </Container>
