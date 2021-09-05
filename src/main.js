@@ -4,7 +4,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import "./styles/app.css";
-import Avatar from "@/components/appAvatar.vue";
+import Avatar from "./components/appAvatar.vue";
 const app = createApp(App);
 app.use(store);
 app.use(router);
